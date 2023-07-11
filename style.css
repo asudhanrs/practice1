@@ -1,0 +1,42 @@
+
+
+.heading {
+    display: inline-block;
+  width: 100px;
+  color: rgb(200, 214, 220);
+}
+.row{
+    padding: 15px;
+}
+
+.box{
+    height: 400px;
+  width: 310px;
+  border-radius: 20px;
+  margin: 20px auto 20px auto;
+  display: block;
+  background-image: linear-gradient(to bottom right, rgb(68, 14, 219), rgb(143, 209, 247));
+}
+
+.btn{
+  background-color: green;
+  color:rgb(200, 214, 220);
+  padding: 8px 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid green;
+}
+
+.input{
+  min-height:25px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.input:focus {
+  outline: none;
+}
+.output{
+  font-size: 30px;
+  display: inline;
+  text-align: center;
+}
